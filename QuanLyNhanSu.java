@@ -1,18 +1,4 @@
 public class QuanLyNhanSu {
-    public static class GiangVien {
-        public String hoTen;
-        public int namSinh;
-    }
-
-    public static class SinhVien extends GiangVien {
-        public String maSinhVien;
-    }
-
-    public static class Person {
-        public String hoTen;
-        public int namSinh;
-    }
-
     public static void main(String[] args) {
         GiangVien gv = new GiangVien();
         gv.hoTen = "Nguyen Van A";
