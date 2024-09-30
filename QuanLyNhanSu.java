@@ -26,5 +26,9 @@ public class QuanLyNhanSu {
         Person p = new Person();
         p.hoTen = "Nguyen Van C";
         p.namSinh = 1992;
+
+        System.out.println("Giang vien: " + gv.hoTen + " - " + gv.namSinh);
+        System.out.println("Sinh vien: " + sv.hoTen + " - " + sv.namSinh + " - " + sv.maSinhVien);
+        System.out.println("Person: " + p.hoTen + " - " + p.namSinh);
     }
 }
